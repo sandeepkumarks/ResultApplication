@@ -1,0 +1,56 @@
+section {
+    padding: 3%;
+    position: relative;
+    top: 45px;
+}
+
+.homepage-image-wrap {
+	overflow: hidden;
+}
+
+.homepage-image-wrap figure img {
+	width: 20%;
+	float: left;
+}
+
+.homepage-image-wrap figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+
+footer {
+	position: static !important;
+	padding: 10px !important;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	
+	30% {
+		left: 0;
+	}
+	
+	35% {
+		left: -100%;
+	}
+	
+	65% {
+		left: -100%;
+	}
+	
+	70% {
+		left: -200%; 
+	}
+	
+	100% {
+		left: -200%;
+	}
+}
